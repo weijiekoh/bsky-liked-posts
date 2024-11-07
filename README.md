@@ -1,19 +1,17 @@
-# AT Protocol "Statusphere" Example App
+# AT Protocol "Liked Posts" Example App
 
 An example application covering:
 
 - Signin via OAuth
-- Fetch information about users (profiles)
-- Listen to the network firehose for new data
-- Publish data on the user's account using a custom schema
+- Fetching the posts that the logged-in user has liked on bsky.app
 
 See https://atproto.com/guides/applications for a guide through the codebase.
 
 ## Getting Started
 
 ```sh
-git clone https://github.com/bluesky-social/statusphere-example-app.git
-cd statusphere-example-app
+git clone https://github.com/weijiekoh/bsky-liked-posts.git
+cd bsky-liked-posts
 cp .env.template .env
 npm install
 npm run dev
